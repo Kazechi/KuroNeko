@@ -1,0 +1,494 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+header{
+    background-image: url(zero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 355px;
+    padding: 35px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background: #1C1C1C;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="text"], .box input[type="password"]{
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #42C3CE;
+    padding: 5px 5px;
+    width: 200px;
+    outline: none;
+    color: white;
+    transition: 0.20s;
+    border-radius: 20px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 270px;
+    border-color: #1B9CF1;
+}
+
+.box input[type="submit"]{
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #1B9CF1;
+    padding: 5px 35px;
+    outline: none;
+    color: white;
+    transition: 0.20s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #1B9CF1;
+}
+
+label.logo{
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 60px;
+    height: 80px;
+    padding: 0 100px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+label.home{
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 60px;
+    height: 80px;
+    padding: 0 100px;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+label.anime{
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 60px;
+    height: 80px;
+    padding: 0 100px;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+label.social{
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 60px;
+    height: 80px;
+    padding: 0 100px;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: #4863A0;
+    color: black;
+}
+ul li.active a{
+    background-color: #4863A0;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: white;
+    font-size: 60px;
+    font-family: Georgia;
+}
+.p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p p{
+    color: white;
+    font-size: 25px;
+}
+
+.info1{
+    position: absolute;
+    top: 84.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.iframe1{
+    width: 850px;
+    height: 200px;
+    border-radius: 15px;
+    border: none;
+}
+.info2{
+    position: absolute;
+    top: 66.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.iframe2{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+.onepiece{
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.onepiece h1{
+    color: white;
+    font-size: 18px;
+    font-family: cambria;
+}
+.img{
+    border-image-repeat: no-repeat;
+}
+.picture1{
+        position: absolute;
+        top: 15%;
+        left: 8%;
+        border-radius: 10px;
+}
+.button1{
+    position: absolute;
+    top: 43%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+.btn1{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+
+.yourname{
+    position: absolute;
+    top: 17%;
+    left: 42.5%;
+    transform: translate(-50%, -50%);
+}
+.yourname h1{
+    color: white;
+    font-size: 18px;
+    font-family: cambria;
+}
+.img{
+    border-image-repeat: no-repeat;
+}
+.picture2{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        border-radius: 10px;
+}
+.button2{
+    position: absolute;
+    top: 43%;
+    left: 34.1%;
+    transform: translate(-50%, -50%);
+}
+.btn2{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+.overlord{
+    position: absolute;
+    top: 17%;
+    left: 64.1%;
+    transform: translate(-50%, -50%);
+}
+.overlord h1{
+    color: white;
+    font-size: 18px;
+    font-family: cambria;
+}
+.img{
+    border-image-repeat: no-repeat;
+}
+.picture3{
+        position: absolute;
+        top: 15%;
+        left: 52%;
+        border-radius: 10px;
+}
+.button3{
+    position: absolute;
+    top: 43%;
+    left: 56.1%;
+    transform: translate(-50%, -50%);
+}
+.btn3{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+
+.spyxfamily{
+    position: absolute;
+    top: 17%;
+    left: 86.5%;
+    transform: translate(-50%, -50%);
+}
+.spyxfamily h1{
+    color: white;
+    font-size: 18px;
+    font-family: cambria;
+}
+.img{
+    border-image-repeat: no-repeat;
+}
+.picture4{
+        position: absolute;
+        top: 15%;
+        left: 73.5%;
+        border-radius: 10px;
+}
+.button4{
+    position: absolute;
+    top: 43%;
+    left: 77.7%;
+    transform: translate(-50%, -50%);
+}
+.btn4{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+
+
+
+.yourlie{
+    position: absolute;
+    top: 66.5%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+.yourlie h1{
+    color: white;
+    font-size: 18px;
+    font-family: cambria;
+}
+.img{
+    border-image-repeat: no-repeat;
+}
+.picture5{
+        position: absolute;
+        top: 65%;
+        left: 19.1%;
+        border-radius: 10px;
+}
+.button5{
+    position: absolute;
+    top: 94%;
+    left: 23.2%;
+    transform: translate(-50%, -50%);
+}
+.btn5{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+
+
+
+.jujutsu{
+    position: absolute;
+    top: 66.5%;
+    left: 36.3%;
+    transform: translate(-50%, -50%);
+}
+.jujutsu h1{
+    color: white;
+    font-size: 18px;
+    font-family: cambria;
+}
+.img{
+    border-image-repeat: no-repeat;
+}
+.picture6{
+        position: absolute;
+        top: 65%;
+        left: 41.5%;
+        border-radius: 10px;
+}
+.button6{
+    position: absolute;
+    top: 94%;
+    left: 45.7%;
+    transform: translate(-50%, -50%);
+}
+.btn6{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+.darling{
+    position: absolute;
+    top: 66.5%;
+    left: 58.8%;
+    transform: translate(-50%, -50%);
+}
+.darling h1{
+    color: white;
+    font-size: 18px;
+    font-family: cambria;
+}
+.img{
+    border-image-repeat: no-repeat;
+}
+.picture7{
+        position: absolute;
+        top: 65%;
+        left: 65.5%;
+        border-radius: 10px;
+}
+.button7{
+    position: absolute;
+    top: 94%;
+    left: 69.7%;
+    transform: translate(-50%, -50%);
+}
+.btn7{
+    border: 1px solid transparent;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mikazuchi{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mika{
+    border: 1px solid #4863A0;
+    padding: 5px 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.mika:hover{
+    background-color: #4863A0;
+    color: black;
+}
